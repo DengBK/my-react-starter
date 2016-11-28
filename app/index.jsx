@@ -1,13 +1,12 @@
-/**
- * Created by Homer on 2016/11/28.
- */
+/*** Created by Homer on 2016/11/28.*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Home from './route/Home';
-import {Router,Route,hashHistory} from 'react-router'
+import {Router, Route, hashHistory} from 'react-router'
 
-class App extends React.Component{
+class App extends React.Component {
     constructor() {
         super();
     }

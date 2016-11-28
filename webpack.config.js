@@ -45,7 +45,7 @@ module.exports= {
             {
                 test: /\.jsx?$/,
                 include: APP_PATH,
-                loader: "jshint-loader"
+                loader: "eslint-loader"
             }
         ],
         loaders: [
@@ -66,8 +66,8 @@ module.exports= {
     },
     //配置jshint的选项，支持es6的校验
     // any jshint option http://www.jshint.com/docs/options/
-    jshint: {
-        "esnext": true
+    eslint: {
+        configFile: './.eslintrc'
     },
     plugins: [
         //这个使用uglifyJs压缩你的js代码
