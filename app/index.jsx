@@ -3,7 +3,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import Home from './route/Home';
+import Home from './route/Home/Home';
 import {Router, Route, hashHistory} from 'react-router'
 
 class App extends React.Component {
